@@ -3,10 +3,9 @@
 import React from 'react';
 import { useFormState } from "react-dom";
 import styles from "./adminUserForm.module.css";
-import { addUser } from '@/lib/action';
 
 const AdminUserForm = () => {
-    const [state, formAction] = useFormState(addUser,undefined);
+    const [state, formAction] = useFormState(undefined);
   return (
     <form action={formAction} className={styles.container}>
         <h1>Add new User</h1>

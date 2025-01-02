@@ -1,4 +1,4 @@
-import { auth } from '@/lib/auth'
+
 import React, { Suspense } from 'react'
 import styles from "./admin.module.css";
 import AdminPosts from '@/components/adminPosts/adminPosts';
